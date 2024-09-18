@@ -1,0 +1,36 @@
+body{
+  font-family: Times New Roaman;
+  background-color: pink;
+  border: 2px solid black;
+  text-align: center;
+  padding: 2px;
+  margin: 2px;
+}
+.form{
+  border-radius: 1px;
+  width:100%;
+  height: 100%;
+  padding: 2px;
+}
+h2{
+  color: brown;
+}
+p{
+  color: black;
+  text-align: center;
+  font-size: 14;
+  margin: 28px;
+  display: block;
+  content:attr();
+}
+button{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    border:2px solid #78788c;
+    background:0;
+    color:#5a5a6e;
+    cursor:pointer;
+    transition:all .3s;
+}
